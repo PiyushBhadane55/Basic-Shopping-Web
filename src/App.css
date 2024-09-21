@@ -1,0 +1,87 @@
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  height: 72px;
+  align-items: center;
+  
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+:root{
+  --red:#d01c28;
+  --gray: #2e2e2e;
+}
+button{
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color: black;
+  font-weight: 500;
+  /* background-color: red; */
+  border-radius: 15%;
+}
+
+.container{
+  margin:0 auto;
+  max-width: 1280px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  height: 100vh;  /* cal(100vh-72) to remove scroll*/
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.hero h1{
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+ 
+.hero p{
+  font-weight: 600;
+  color: #2e2e2e;
+  max-width: 400px;
+}
+
+.hero-btn{
+  display: flex;
+  gap: 40px;
+  font-size: 24px;
+}
+
+.secondary-btn{
+  background-color: transparent;
+  border: 1px solid grey;
+}
+
+.shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.brand-icons{
+  display: flex;
+  gap: 28px;
+}
+.hero-button{
+  display: flex;
+  gap: 28px;
+}
